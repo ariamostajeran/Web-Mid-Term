@@ -8,7 +8,7 @@ function setCookie(cname, cvalue) {
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
     document.getElementById("response").innerHTML = "";
 }
-
+//kossher
 function getCookie(cname) {
     // a function for getting cookies
     let name = cname + "=";
